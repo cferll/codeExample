@@ -18,5 +18,7 @@ public class TechShop {
 		Engineer engineer = (Engineer) applicationContext.getBean("engineer");
 		// engineer.setTool(tool);
 		engineer.repair(brokenComputer);
+		engineer.repair(brokenComputer);
+		
 	}
 }
